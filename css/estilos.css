@@ -140,6 +140,10 @@ body {
     margin: 1.25rem 0 0
 }
 
+.sidebar {
+    background-color: var(--sena-azul) !important;
+    color: #fff;
+}
 
 /* Enlaces del menu lateral */
 .sidebar .nav-link {
@@ -216,7 +220,7 @@ body {
 
 .tarjetas-kpi:hover {
     /*La sube 4px efecto de levantarse*/
-    transform: trranslateY(-4px);
+    transform: translateY(-4px);
     /*Sombra mas mafrcada (!important para ganarle al shadow-sm)*/
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12) !important;
 }
